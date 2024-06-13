@@ -1,12 +1,12 @@
-import { Component, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ActionSheetPageRoutingModule } from './action-sheet-routing.module';
+import { ValidarCorreoPageRoutingModule } from './validar-correo-routing.module';
 
-import { ActionSheetPage } from './action-sheet.page';
+import { ValidarCorreoPage } from './validar-correo.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from 'src/app/components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    ActionSheetPageRoutingModule,
+    ValidarCorreoPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [ActionSheetPage]
+  declarations: [ValidarCorreoPage]
 })
-export class ActionSheetPageModule {}
+export class ValidarCorreoPageModule {}

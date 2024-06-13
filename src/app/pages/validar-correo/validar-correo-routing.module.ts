@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { DatetimePage } from './datetime.page';
+import { ValidarCorreoPage } from './validar-correo.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: DatetimePage
+    component: ValidarCorreoPage
   }
 ];
 
@@ -14,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class DatetimePageRoutingModule {}
+export class ValidarCorreoPageRoutingModule {}

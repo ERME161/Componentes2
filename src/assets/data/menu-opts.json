@@ -1,33 +1,12 @@
 [
-    {
-      "icon": "american-football-outline",
-      "name": "Action Sheet",
-      "redirectTo": "/action-sheet"
-    },
-    {
-      "icon": "logo-apple-appstore",
-      "name": "Alert",
-      "redirectTo": "/alert"
-    },
-    {
-      "icon": "body-outline",
-      "name": "Avatar",
-      "redirectTo": "/avatar"
-    },
-    {
-      "icon": "alarm-outline",
-      "name": "Datetime",
-      "redirectTo": "/datetime"
-    },
-    {
-      "icon": "create-outline",
-      "name": "Input",
-      "redirectTo": "/input"
-    },
+    
+    
+    
+    
     {
       "icon": "albums-outline",
-      "name": "Menu",
-      "redirectTo": "/menu"
+      "name": "Validar-correo",
+      "redirectTo": "/validar-correo"
     }
     
     

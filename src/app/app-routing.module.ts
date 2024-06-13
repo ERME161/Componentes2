@@ -12,29 +12,18 @@ const routes: Routes = [
       redirectTo: 'inicio',
       pathMatch: 'full'
     },
-  {
-    path: 'alert',
-    loadChildren: () => import('./pages/alert/alert.module').then( m => m.AlertPageModule)
-  },
-  {
-    path: 'action-sheet',
-    loadChildren: () => import('./pages/action-sheet/action-sheet.module').then( m => m.ActionSheetPageModule)
-  },
-  {
-    path: 'input',
-    loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
-  },
-  {
-    path: 'avatar',
-    loadChildren: () => import('./pages/avatar/avatar.module').then( m => m.AvatarPageModule)
-  },
-  {
-    path: 'datetime',
-    loadChildren: () => import('./pages/datetime/datetime.module').then( m => m.DatetimePageModule)
-  },
+  
+  
+  
+  
+  
   {
     path: 'menu',
     loadChildren: () => import('./pages/menu/menu.module').then( m => m.MenuPageModule)
+  },
+  {
+    path: 'validar-correo',
+    loadChildren: () => import('./pages/validar-correo/validar-correo.module').then( m => m.ValidarCorreoPageModule)
   },
   ];
   
